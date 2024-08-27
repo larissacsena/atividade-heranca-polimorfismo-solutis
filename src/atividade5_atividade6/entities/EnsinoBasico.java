@@ -25,5 +25,4 @@ public class EnsinoBasico extends Funcionario {
     public String toString() {
         return super.toString() + "Escola Ensino Básico: " + schoolBasic + "\n";
     }
-
 }

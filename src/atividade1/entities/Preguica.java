@@ -3,6 +3,7 @@ package atividade1.entities;
 import atividade1.model.Animal;
 
 public class Preguica extends Animal {
+
     public Preguica(String name, int age) {
         super(name, age);
     }

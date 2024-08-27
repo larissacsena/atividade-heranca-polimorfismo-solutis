@@ -10,7 +10,7 @@ public class Program {
 
         Funcionario gerente = new Gerente("Alex", "200");
         Funcionario supervisor = new Supervisor("Ana", "201");
-        Funcionario vendedor = new Vendedor("João","202");
+        Funcionario vendedor = new Vendedor("João", "202");
 
         System.out.println("Comissão do Gerente: R$ " + gerente.rendaTotal());
         System.out.println("Comissão do Supervisor: R$ " + supervisor.rendaTotal());

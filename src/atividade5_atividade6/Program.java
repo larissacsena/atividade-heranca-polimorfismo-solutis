@@ -13,11 +13,11 @@ public class Program {
 
         List<Funcionario> funcionarios = new ArrayList<>();
         funcionarios.add(new Funcionario("E001", "Ana"));
-        funcionarios.add(new EnsinoBasico("E002","Pedro" , "ABC School"));
-        funcionarios.add(new EnsinoMedio( "E003","Maria", "DCE School", "XYZ School"));
-        funcionarios.add(new Graduacao( "E004","João", "ABC School","XYZ School", "DEF University"));
+        funcionarios.add(new EnsinoBasico("E002", "Pedro", "ABC School"));
+        funcionarios.add(new EnsinoMedio("E003", "Maria", "DCE School", "XYZ School"));
+        funcionarios.add(new Graduacao("E004", "João", "ABC School", "XYZ School", "DEF University"));
 
-        for(Funcionario funcionario : funcionarios){
+        for (Funcionario funcionario : funcionarios) {
             System.out.println(funcionario);
         }
     }

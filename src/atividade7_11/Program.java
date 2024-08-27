@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Program {
+
     private static final int TOTAL_EMPLOYEES = 10;
     private static final int BASIC_EDUCATION_LIMIT = 4;
     private static final int HIGH_SCHOOL_LIMIT = 8;

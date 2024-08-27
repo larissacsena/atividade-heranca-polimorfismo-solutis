@@ -1,6 +1,7 @@
 package atividade5_atividade6.entities;
 
 public class Graduacao extends EnsinoMedio {
+
     private String university;
     final float PERCENTAGE = 1.0f;
     private float basicImcome;

@@ -3,6 +3,7 @@ package atividade1.entities;
 import atividade1.model.Animal;
 
 public class Cavalo extends Animal {
+
     public Cavalo(String name, int age) {
         super(name, age);
     }

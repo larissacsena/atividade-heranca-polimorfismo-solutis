@@ -19,7 +19,7 @@ public class Program {
 
         Veterinario veterinarian = new Veterinario();
 
-        for(Animal animal : animais){
+        for (Animal animal : animais) {
             veterinarian.examinar(animal);
             System.out.println();
         }

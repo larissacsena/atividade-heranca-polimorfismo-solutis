@@ -1,6 +1,7 @@
 package atividade9_11.model;
 
 public class Funcionario {
+
     private String name;
     private String employeeCode;
     private float basicIncome = 1000f;
@@ -43,7 +44,7 @@ public class Funcionario {
         this.comissao = comissao;
     }
 
-    public double rendaTotal(){
+    public double rendaTotal() {
         return this.comissao + basicIncome;
     }
 

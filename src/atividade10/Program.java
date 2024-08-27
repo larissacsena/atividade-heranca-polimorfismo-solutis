@@ -12,6 +12,7 @@ import static java.lang.Float.sum;
 public class Program {
 
     public static void main(String[] args) {
+
         int totalFuncionarios = 10;
 
         int numGerentes = (int) (totalFuncionarios * 0.10);
